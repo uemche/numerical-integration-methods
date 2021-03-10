@@ -12,15 +12,15 @@
 **integrate(a, b, n, func, method='ls')**
 ### Параметры:
 <dl>
-<dt>#### a : int,float</dt>
+<dt> a : int,float</dt>
 <dd>Левая граница интеграла.</dd>
-<dt>#### b : int,float</dt>
+<dt> b : int,float</dt>
 <dd>Правая граница интеграла.</dd>
-<dt>#### n : int</dt>
+<dt> n : int</dt>
 <dd>Количество разбиений.</dd>
-<dt>#### func : callable</dt>
+<dt> func : callable</dt>
 <dd>Подынтегральная функция.</dd>
-<dt>#### method : str,optional</dt>
+<dt> method : str,optional</dt>
 <dd>Метод вычисления. Должен быть одним из</dd>
 <dd>- 'ls'</dd>
 <dd>- 'rs'</dd>
